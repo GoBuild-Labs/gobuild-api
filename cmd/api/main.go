@@ -44,8 +44,11 @@ func main() {
 	r := chi.NewRouter()
 	r.Use(chimiddleware.Logger)
 
-	r.Get("/swagger/*", httpSwagger.WrapHandler)
+	r.Get("/health", handlers.HealthCheckHandler) // Health check endpoint
 
+	r.Get("/swagger/*", httpSwagger.WrapHandler) // Swagger documentation endpoint
+
+	// API versioning
 	r.Route("/api/v1", func(r chi.Router) {
 		r.Use(middleware.APIKeyAuthMiddleware(apiKey))
 
