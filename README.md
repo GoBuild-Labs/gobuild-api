@@ -75,13 +75,13 @@ Once the server is running, open your browser and go to:
 
 ### 🔗 QR code to Swagger Docs
 <p align="center">
-  <a href="https://r4stypasty.github.io/gobuild-api/">
-    <img src="https://useqr.app/q/https%3A%2F%2Fr4stypasty.github.io%2Fgobuild-api%2F.png" width="150" alt="QR code to Swagger Docs" />
+  <a href="https://gobuild-labs.github.io/gobuild-api/">
+    <img src="https://useqr.app/q/https%3A%2F%2Fgobuild-labs.github.io%2Fgobuild-api%2F.png" width="150" alt="QR code to Swagger Docs" />
   </a>
   <br>
   <i>📱 Scan the QR code to open interactive Swagger UI</i>
   <br>
-  <b>Or click here:</b> <a href="https://r4stypasty.github.io/gobuild-api/">r4stypasty.github.io/gobuild-api</a>
+  <b>Or click here:</b> <a href="https://gobuild-labs.github.io/gobuild-api/">gobuild-labs.github.io/gobuild-api</a>
 </p>
 
 ## 🧪 Testing
