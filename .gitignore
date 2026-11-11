@@ -31,6 +31,13 @@ go.work.sum
 # env file
 .env
 
+# Ignore AI learning toolkit files
+.github/copilot-instructions.md
+.github/prompts/
+.github/instructions/
+.github/skills/
+learning/
+
 # Editor/IDE
 # .idea/
 # .vscode/

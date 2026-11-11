@@ -58,6 +58,7 @@ func main() {
 		r.Get("/materials", materialHandler.GetMaterials)
 		r.Post("/materials", materialHandler.CreateMaterial)
 		r.Post("/materials/{id}/write-off", materialHandler.WriteOffMaterial)
+		r.Post("/materials/{id}/arrival", materialHandler.AddStock)
 		r.Get("/alerts", materialHandler.GetAlerts)
 		r.Patch("/materials/{id}", materialHandler.UpdateMaterial)
 		r.Delete("/materials/{id}", materialHandler.DeleteMaterial)
