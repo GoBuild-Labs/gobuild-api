@@ -68,6 +68,20 @@ const docTemplate = `{
                     "materials"
                 ],
                 "summary": "Get all materials",
+                "parameters": [
+                    {
+                        "type": "integer",
+                        "description": "Number of items to return (default 10, max 100)",
+                        "name": "limit",
+                        "in": "query"
+                    },
+                    {
+                        "type": "integer",
+                        "description": "Number of items to skip (default 0)",
+                        "name": "offset",
+                        "in": "query"
+                    }
+                ],
                 "responses": {
                     "200": {
                         "description": "OK",

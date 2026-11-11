@@ -48,6 +48,15 @@ paths:
   /materials:
     get:
       description: Returns a list of all materials in stock
+      parameters:
+      - description: Number of items to return (default 10, max 100)
+        in: query
+        name: limit
+        type: integer
+      - description: Number of items to skip (default 0)
+        in: query
+        name: offset
+        type: integer
       produces:
       - application/json
       responses:
